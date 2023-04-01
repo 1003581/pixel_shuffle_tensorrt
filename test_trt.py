@@ -9,6 +9,7 @@ import os
 import torch
 import cv2
 
+
 TRT_LOGGER = trt.Logger(trt.Logger.INFO)
 a=(int)(trt.NetworkDefinitionCreationFlag.EXPLICIT_BATCH)
 EXPLICIT_BATCH = 1 << (int)(trt.NetworkDefinitionCreationFlag.EXPLICIT_BATCH)
